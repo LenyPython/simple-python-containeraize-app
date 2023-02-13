@@ -2,7 +2,7 @@
 services:
   app:
     build: .
-    container_name: python-app-prod
+    container_name: python-app:prod
     command: python3 src/main.py
     ports:
       - 8080:8080
